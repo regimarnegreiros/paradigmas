@@ -1,0 +1,20 @@
+services:
+  # Imperativo (Pascal)
+  pascal:
+    build: ./pascal
+    container_name: demo-pascal
+
+  # Orientado a Objetos (Smalltalk)
+  smalltalk:
+    build: ./smalltalk
+    container_name: demo-smalltalk
+
+  # Funcional (Haskell)
+  haskell:
+    build: ./haskell
+    container_name: demo-haskell
+
+  # Lógico (Prolog)
+  prolog:
+    build: ./prolog
+    container_name: demo-prolog
