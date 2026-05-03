@@ -1,4 +1,4 @@
-FROM haskell:9
+FROM haskell:9-slim
 
 WORKDIR /app
 COPY Main.hs .
